@@ -76,6 +76,17 @@ Les features les plus importantes pour prédire les points sont :
 - Optimisation des hyperparamètres pour SVR et XGBoost
 - Meilleur modèle : XGBoost (n_estimators=500, max_depth=3, learning_rate=0.05)
 
+## 📈 Visualisations
+
+### Comparaison des modèles
+![Comparaison des modèles](images/model_comparaison.png)
+
+### Prédictions vs réalité
+![Prédictions vs réalité](images/prediction_vs_reality.png)
+
+### Importance des différentes features
+![Importance des différentes features](images/feature_importance_xgboost.png)
+
 ## 🚀 Installation et utilisation
 
 ```bash
