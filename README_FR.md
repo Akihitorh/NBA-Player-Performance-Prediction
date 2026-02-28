@@ -5,17 +5,17 @@ Prédiction des points totaux des joueurs NBA en utilisant le Machine Learning e
 ## 🎯 Résultats
 
 **Modèles comparés :**
-- Linear Regression : R² = 0.878
-- Ridge : R² = 0.878
-- Random Forest : R² = 0.931
-- SVR : R² = 0.022 → **0.875** (après optimisation)
-- XGBoost : R² = 0.941 → **0.963** (après optimisation) ✅
+- Linear Regression : R² = 0.889
+- Ridge : R² = 0.890
+- Random Forest : R² = 0.928
+- SVR : R² = 0.006 → **0.888** (après optimisation)
+- XGBoost : R² = 0.929 → **0.970** (après optimisation) ✅
 
 **Meilleur modèle : XGBoost optimisé**
-- **R² = 0.963** (96.3% de la variance expliquée)
-- **MAE ≈ 48 points** (erreur absolue moyenne)
+- **R² = 0.970** (97% de la variance expliquée)
+- **MAE ≈ 58.6 points** (erreur absolue moyenne)
 
-Le modèle prédit les points totaux avec une précision de 96%, ce qui signifie qu'il capture presque toutes les relations entre les statistiques de jeu et le scoring.
+Le modèle prédit les points totaux avec une précision de 97%, ce qui signifie qu'il capture presque toutes les relations entre les statistiques de jeu et le scoring.
 
 ## 📊 Features utilisées
 
@@ -39,13 +39,13 @@ Les features les plus importantes pour prédire les points sont :
 1. **Usage Rate** : Plus un joueur utilise de possessions, plus il score
 2. **Free Throw Rate** : Les joueurs agressifs au panier marquent plus
 3. **Minutes & Games Played** : Plus de temps de jeu = plus d'opportunités
-4. **Position** : Les guards scorent différemment des centers
+4. **Position** : Les meneurs scorent différemment des pivots
 
 ### Ce que le modèle a appris
 - Les **tentatives de tirs** et le **temps de jeu** sont les meilleurs prédicteurs
 - Le **rôle dans l'équipe** (USG%) est crucial : les stars avec usage élevé scorent naturellement plus
 - L'**efficacité** (FG%, 3P%) compte autant que le **volume** de jeu
-- Les **positions** influencent le scoring : les centers scorent ~8% de moins à volume égal
+- Les **positions** influencent le scoring 
 
 ## 🛠️ Technologies utilisées
 
