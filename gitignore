@@ -1,0 +1,56 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système d'exploitation
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Données sensibles (si tu en as)
+config_secret.py
+*.env
+.env
+
+# Fichiers temporaires
+*.log
+*.tmp
+temp/
+tmp/
+
+# Modèles ML sauvegardés (si trop gros)
+*.pkl
+*.h5
+*.model
+
+# Fichiers de sortie (optionnel - garde-les si tu veux les montrer)
+# *.png
+# *.jpg
+# *.pdf
