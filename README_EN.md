@@ -5,17 +5,17 @@ Machine Learning model to predict NBA players' total points using advanced baske
 ## 🎯 Results
 
 **Models compared:**
-- Linear Regression: R² = 0.878
-- Ridge: R² = 0.878
-- Random Forest: R² = 0.931
-- SVR: R² = 0.022 → **0.875** (after optimization)
-- XGBoost: R² = 0.941 → **0.963** (after optimization) ✅
+- Linear Regression: R² = 0.889
+- Ridge: R² = 0.890
+- Random Forest: R² = 0.928
+- SVR: R² = 0.006 → **0.888** (after optimization)
+- XGBoost: R² = 0.929 → **0.970** (after optimization) ✅
 
 **Best model: XGBoost (optimized)**
-- **R² = 0.963** (96.3% variance explained)
-- **MAE ≈ 48 points** (mean absolute error)
+- **R² = 0.970** (97% variance explained)
+- **MAE ≈ 58.6 points** (mean absolute error)
 
-The model predicts total points with 96% accuracy, capturing almost all relationships between game statistics and scoring.
+The model predicts total points with 97% accuracy, capturing almost all relationships between game statistics and scoring.
 
 ## 📊 Features
 
@@ -45,7 +45,7 @@ The most important features for predicting points are:
 - **Shot attempts** and **playing time** are the strongest predictors
 - **Team role** (USG%) is crucial: stars with high usage naturally score more
 - **Efficiency** (FG%, 3P%) matters as much as **volume**
-- **Positions** influence scoring: centers score ~8% less at equal volume
+- **Positions** influence scoring
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +53,7 @@ The most important features for predicting points are:
 - **Pandas, NumPy**: Data manipulation
 - **scikit-learn**: ML models, pipelines, GridSearchCV
 - **XGBoost**: Optimized gradient boosting
-- **Matplotlib, Seaborn**: Visualizations
+- **Matplotlib**: Visualizations
 
 ## 📈 Methodology
 
@@ -74,13 +74,24 @@ The most important features for predicting points are:
 ### 4. Optimization
 - GridSearchCV with 5-fold cross-validation
 - Hyperparameter tuning for SVR and XGBoost
-- Best model: XGBoost (n_estimators=500, max_depth=3, learning_rate=0.05)
+- Best model: XGBoost (n_estimators=800, max_depth=2, learning_rate=0.1)
+
+## 📈 Visualizations
+
+### Model Comparison
+![Model Comparison](images/model_comparison.png)
+
+### Predictions vs Reality
+![Predictions vs Reality](images/predictions_vs_reality_xgboost.png)
+
+### Feature Importance
+![Feature Importance](images/feature_importance_xgboost.png)
 
 ## 🚀 Installation & Usage
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/NBA-Performance-Prediction.git
+git clone https://github.com/Akihitorh/NBA-Performance-Prediction.git
 cd NBA-Performance-Prediction
 
 # Install dependencies
@@ -115,14 +126,14 @@ NBA-Performance-Prediction/
 
 ## 🎓 Background
 
-Project developed as part of my Data & AI studies at ESILV, complementing the **Machine Learning Specialization** certification (Stanford/DeepLearning.AI).
+This project was developed independently alongside my studies at ESILV.  
+It reflects my personal interest in Data Science and Artificial Intelligence, which I am currently exploring.
 
 ## 📧 Contact
 
 Akihito RAFFIN-HOSAKA
-- LinkedIn: [Your LinkedIn profile]
-- Email: [Your email]
-- Portfolio: [Your website/GitHub]
+- LinkedIn: https://www.linkedin.com/in/akihito-raffin-hosaka-286aaa331/
+- Email: akihito.raffinhosaka@gmail.com
 
 ---
 
