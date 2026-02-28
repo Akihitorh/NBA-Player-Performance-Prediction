@@ -79,10 +79,10 @@ The most important features for predicting points are:
 ## 📈 Visualizations
 
 ### Model Comparison
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](images/model_comparaison.png)
 
 ### Predictions vs Reality
-![Predictions vs Reality](images/predictions_vs_reality_xgboost.png)
+![Predictions vs Reality](images/prediction_vs_reality.png)
 
 ### Feature Importance
 ![Feature Importance](images/feature_importance_xgboost.png)
