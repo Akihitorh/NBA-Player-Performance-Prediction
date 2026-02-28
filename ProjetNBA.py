@@ -5,7 +5,6 @@ Objectif : prédire les points (PTS) totaux d'un joueur avec plusieurs modèles 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.linear_model import LinearRegression,Ridge
 from sklearn.ensemble import RandomForestRegressor
@@ -337,6 +336,7 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
 
 
