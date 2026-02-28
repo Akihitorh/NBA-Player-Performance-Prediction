@@ -80,7 +80,7 @@ Les features les plus importantes pour prédire les points sont :
 
 ```bash
 # Cloner le repository
-git clone https://github.com/[ton-username]/NBA-Performance-Prediction.git
+git clone https://github.com/Akihitorh/NBA-Performance-Prediction.git
 cd NBA-Performance-Prediction
 
 # Installer les dépendances
@@ -115,14 +115,14 @@ NBA-Performance-Prediction/
 
 ## 🎓 Contexte
 
-Projet réalisé dans le cadre de ma formation en Data & IA à l'ESILV, en complément de la certification **Machine Learning Specialization** (Stanford/DeepLearning.AI).
+Ce projet a été développé de manière indépendante parallèlement à mes études à l'ESILV.
+Il reflète mon intérêt personnel pour la science des données et l'intelligence artificielle, domaines que j'explore actuellement.
 
 ## 📧 Contact
 
 Akihito RAFFIN-HOSAKA
-- LinkedIn : [Ton profil LinkedIn]
-- Email : [Ton email]
-- Portfolio : [Ton site/GitHub]
+- LinkedIn : https://www.linkedin.com/in/akihito-raffin-hosaka-286aaa331/
+- Email : akihito.raffinhosaka@gmail.com
 
 ---
 
