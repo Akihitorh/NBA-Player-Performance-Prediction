@@ -34,7 +34,7 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
-# Données sensibles (si tu en as)
+# Données sensibles 
 config_secret.py
 *.env
 .env
@@ -45,12 +45,12 @@ config_secret.py
 temp/
 tmp/
 
-# Modèles ML sauvegardés (si trop gros)
+# Modèles ML sauvegardés 
 *.pkl
 *.h5
 *.model
 
-# Fichiers de sortie (optionnel - garde-les si tu veux les montrer)
+# Fichiers de sortie 
 # *.png
 # *.jpg
 # *.pdf
