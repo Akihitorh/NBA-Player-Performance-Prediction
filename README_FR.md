@@ -106,13 +106,24 @@ Features que le **modèle utilise** pour prédire (par ordre d'importance) :
 ### 4. Optimisation
 - GridSearchCV avec validation croisée (5-fold)
 - Optimisation des hyperparamètres pour SVR et XGBoost
-- Meilleur modèle : XGBoost (n_estimators=500, max_depth=3, learning_rate=0.05)
+- Meilleur modèle : XGBoost (n_estimators=800, max_depth=2, learning_rate=0.1)
+
+## 📈 Visualizations
+
+### Model Comparison
+  ![Comparaison des modèles](images/model_comparaison.png)
+
+### Predictions vs Reality
+![Prédictions vs Réalité](images/prediction_vs_reality.png)
+
+### Feature Importance
+![Importance des features](images/feature_importance_xgboost.png)
 
 ## 🚀 Installation et utilisation
 
 ```bash
 # Cloner le repository
-git clone https://github.com/[ton-username]/NBA-Performance-Prediction.git
+git clone https://github.com/Akihitorh/NBA-Performance-Prediction.git
 cd NBA-Performance-Prediction
 
 # Installer les dépendances
@@ -131,8 +142,8 @@ NBA-Performance-Prediction/
 ├── requirements.txt                # Dépendances Python
 ├── README.md                       # Documentation
 ├── images/                         # Visualisations générées
-│   ├── model_comparison.png
-│   ├── predictions_vs_reality_xgboost.png
+│   ├── model_comparaison.png
+│   ├── prediction_vs_reality.png
 │   └── feature_importance_xgboost.png
 └── .gitignore
 ```
@@ -147,14 +158,14 @@ NBA-Performance-Prediction/
 
 ## 🎓 Contexte
 
-Projet réalisé dans le cadre de ma formation en Data & IA à l'ESILV, en complément de la certification **Machine Learning Specialization** (Stanford/DeepLearning.AI).
+Ce projet a été développé de manière indépendante parallèlement à mes études à l'ESILV.  
+Il reflète mon intérêt personnel pour la science des données et l'intelligence artificielle, domaines que j'explore actuellement.
 
 ## 📧 Contact
 
 Akihito RAFFIN-HOSAKA
-- LinkedIn : [Ton profil LinkedIn]
-- Email : [Ton email]
-- Portfolio : [Ton site/GitHub]
+- LinkedIn : https://www.linkedin.com/in/akihito-raffin-hosaka-286aaa331/
+- Email : akihito.raffinhosaka@gmail.com
 
 ---
 
