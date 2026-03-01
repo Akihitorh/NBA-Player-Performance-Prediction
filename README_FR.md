@@ -108,15 +108,15 @@ Features que le **modèle utilise** pour prédire (par ordre d'importance) :
 - Optimisation des hyperparamètres pour SVR et XGBoost
 - Meilleur modèle : XGBoost (n_estimators=800, max_depth=2, learning_rate=0.1)
 
-## 📈 Visualizations
+## 📈 Visualisations
 
-### Model Comparison
-  ![Comparaison des modèles](images/model_comparaison.png)
+### Comparaison des modèles
+![Comparaison des modèles](images/model_comparaison.png)
 
-### Predictions vs Reality
+### Prédictions vs Réalité
 ![Prédictions vs Réalité](images/prediction_vs_reality.png)
 
-### Feature Importance
+### Importance des features
 ![Importance des features](images/feature_importance_xgboost.png)
 
 ## 🚀 Installation et utilisation
