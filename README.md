@@ -106,7 +106,18 @@ Features the **model uses** for predictions (ordered by importance):
 ### 4. Optimization
 - GridSearchCV with 5-fold cross-validation
 - Hyperparameter tuning for SVR and XGBoost
-- Best model: XGBoost (n_estimators=500, max_depth=3, learning_rate=0.05)
+- Best model: XGBoost (n_estimators=800, max_depth=2, learning_rate=0.1)
+
+## 📈 Visualizations
+
+### Model Comparison
+![Model Comparison](images/model_comparaison.png)
+
+### Predictions vs Reality
+![Predictions vs Reality](images/prediction_vs_reality.png)
+
+### Feature Importance
+![Feature Importance](images/feature_importance_xgboost.png)
 
 ## 🚀 Installation & Usage
 
@@ -131,8 +142,8 @@ NBA-Performance-Prediction/
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Documentation
 ├── images/                         # Generated visualizations
-│   ├── model_comparison.png
-│   ├── predictions_vs_reality_xgboost.png
+│   ├── model_comparaison.png
+│   ├── prediction_vs_reality.png
 │   └── feature_importance_xgboost.png
 └── .gitignore
 ```
